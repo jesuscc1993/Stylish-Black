@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stylish Black</title>        
+        <meta name="description" content="Custom neat CSS stylesheet wirth dark colors.">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="stylish_black/style.css" type="text/css"/>
+        <link rel="icon" type="image/x-icon" href="favicon.png"/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <style>
+            body                                {margin:0;}
+            a, a:visited                        {color:#32518f; text-decoration:none;}
+            a:hover                             {color:#3d6dcc;}
+            textarea                            {resize:vertical;}
+            #mainContent                        {margin:48px auto; min-width:640px; width:40vw;}
+
+            .showcase_table                     {font-size:0 /* disable inline padding */; margin-bottom:1px;}
+            .showcase_table div                 {font-size:16px; display:inline-block; margin:0; vertical-align:middle;
+                                                 box-sizing:border-box; -moz-box-sizing:border-box;}
+            .showcase_table.sb_center div       {text-align:center;}
+            .showcase_table.half div            {width:50%;}
+            .showcase_table.third div           {width:33.33%;}
+            .showcase_table.quarter div         {width:25%;}
+            .showcase_table.fifth div           {width:20%;}
+
+            #containerShowcase .sb_block        {padding:24px 20px; font-size:15px; min-height: 100px;}
+        </style>
+    </head>
+    <body class="sb_stripedBackground sb_shadow">
+        <div class="sb_block sb_striped sb_small sb_center" style="font-size:24px;">>&nbsp; S T Y L I S H &nbsp;&nbsp; B L A C K &nbsp;&lt;</div>
+        <div class="sb_block sb_darkest" style="padding:4px; text-align:center;">
+            Get it <a target="_blank" href="http://txusmetal4ever.deviantart.com/art/Stylish-Black-480431505">here</a></div>
+        <div id="mainContent">
+            <div class="sb_shadow">
+                <div class="sb_block sb_small sb_striped" style="text-align:center;">- E X A M P L E &nbsp; P O S T -</div>
+                <div class="sb_block post">
+                    <span>&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget blandit turpis. Nunc nec nisi at odio suscipit pretium id elementum nisi. Quisque hendrerit et orci porta tempus. Donec vulputate neque sed nibh fermentum, lobortis accumsan sem porta. In hac habitasse platea dictumst. Integer sagittis aliquet massa vitae condimentum.
+                    </span><br><br>
+                    <span>&nbsp;&nbsp;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vel arcu malesuada, iaculis quam ut, mattis odio. Mauris sit amet risus a libero congue hendrerit sit amet dictum tellus. Proin pharetra gravida laoreet. Sed id sem lorem. Maecenas at sollicitudin est, vel gravida odio. Integer gravida eget neque a rhoncus.
+                    </span><br><br>
+                </div>
+                <div class="sb_block sb_small sb_darker">
+                    <div style="width:100%; text-align:right;"><input type="button" value="Accept Terms" class="sb_button">
+                        <input type="button" value="Cancel" class="sb_button"></div>
+                </div>
+            </div>
+            <br><br>
+
+
+            <div class="sb_shadow">
+                <div class="sb_block sb_small sb_striped" style="text-align:center;">- E X A M P L E &nbsp; C O N T A I N E R S -</div>
+                <div id="containerShowcase" class="showcase_table sb_center fifth">
+                    <div class="sb_block">Block<br>(Regular)</div>
+                    <div class="sb_block sb_darker">Block<br>(Darker)</div>
+                    <div class="sb_block sb_striped">Block<br>(Striped)</div>
+                    <div class="sb_block sb_darkest">Block<br>(Darkest)</div>
+                    <div class="sb_block sb_striped_darkest">Block<br>(Darkest, Striped)</div>
+                </div>
+            </div>
+            <br><br>
+
+
+            <div class="sb_shadow">
+                <div class="sb_block sb_small sb_striped" style="text-align:center;">- E X A M P L E &nbsp; E L E M E N T S -</div>
+                <div class="sb_block">
+                    <div class="showcase_table third sb_center">
+                        <div><input type="button" onclick value="Button" class="sb_button"></div>
+                        <div><input type="button" onclick value="Button (hovered)" class="sb_button sb_fakeHover"></div>
+                        <div><input type="button" onclick value="Button (pressed)" class="sb_button sb_fakeActive"></div>
+                    </div>
+                </div>
+                <div class="sb_block">
+                    <input type="checkbox" id="test_checkbox" class="sb_checkbox"><label for="test_checkbox">Checkbox</label><br>
+                    <input type="checkbox" id="test_selected_checkbox" class="sb_checkbox" checked="checked"><label for="test_selected_checkbox">Checkbox <span class="sb_blue">(selected)</span></label><br>
+                </div>
+                <div class="sb_block">
+                    <input type="checkbox" id="test_longCheckbox" class="sb_longCheckbox"><label for="test_longCheckbox">Long Checkbox</label><br>
+                    <input type="checkbox" id="test_selected_longCheckbox" class="sb_longCheckbox" checked="checked"><label for="test_selected_longCheckbox">Long Checkbox <span class="sb_blue">(selected)</span></label><br>
+                </div>
+                <div class="sb_block">
+                    <input type="radio" name="test_radio" id="test_radio_a" class="sb_radio">
+                    <label for="test_radio_a">Radio Button</label><br>
+                    <input type="radio" name="test_radio" id="test_radio_b" class="sb_radio" checked="checked">
+                    <label for="test_radio_b">Radio Button <span class="sb_blue">(selected)</span></label><br>
+                    <input type="radio" name="test_radio" id="test_radio_c" class="sb_radio">
+                    <label for="test_radio_c">Radio Button</label><br>
+                </div>
+                <div class="sb_block">
+                    Select:<br><div class="sb_select"><select>
+                        <option>Option: foo</option>
+                        <option>Option: bar</option>
+                        <option>Option: baz</option>
+                    </select></div>
+                </div>
+                <div class="sb_block">
+                    Text input:<br>
+                    <input type="text" style="width:50%;"><br>
+                    Text area:<br>
+                    <textarea style="width:100%; height:45px;"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="sb_block sb_darkest sb_small sb_center"><span class="sb_blue">MetalTxus, 2014 - 2016</span> - CC BY-NC-ND 4.0</div>
+        <div id="sharelist" style="display:none;">
+            <a href="http://www.facebook.com/sharer.php?u=[LINK_GOES_HERE]" target="_blank" title="Facebook"></a>
+            <a href="http://twitter.com/home?status=Currently reading [LINK_GOES_HERE]" target="_blank" title="Twitter"></a>
+            <a href="mailto:?&amp;subject=HTML object tag&amp;body=Take%20a%20look%20at%20this:%20[LINK_GOES_HERE]" target="_blank" title="E-mail"></a>
+            <a href="https://plus.google.com/share?url=[LINK_GOES_HERE]" target="_blank" title="Google+"></a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=[LINK_GOES_HERE]" target="_blank" title="LinkedIn"></a>
+            <a href="http://www.reddit.com/submit?url=[LINK_GOES_HERE]" target="_blank" title="Reddit"></a>
+        </div>
+    </body>
+</html>
